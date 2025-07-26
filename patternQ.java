@@ -10,8 +10,13 @@ public class patternQ {
                 }
     
                 for(int col=0; col<=((i+(i-1))); col++){
-                    String colval = col<(n-i)+1 && col<(n+i)-3 ? "*" : " ";
-                    System.out.print(colval);
+                    if(col==(n-i)+1 ||  col==(n+i)-3 || col==n) {
+                         System.out.print("*");
+                    }else{
+                        System.out.print(" ");
+                    }
+                    
+                   
                 }
             }
             System.out.println();
