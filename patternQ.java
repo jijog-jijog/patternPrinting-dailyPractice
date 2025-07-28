@@ -18,6 +18,5 @@ public class patternQ {
             System.out.println();
         }
 
-    }
-    
+    } 
 }
