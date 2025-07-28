@@ -12,8 +12,7 @@ public class patternQ {
                          System.out.print("*");
                     }else{
                         System.out.print(" ");
-                    }
-                    
+                    }     
                    
                 }
             }
